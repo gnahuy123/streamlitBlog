@@ -1,12 +1,15 @@
 import streamlit as st
+from sidebar import render_sidebar
 
 st.set_page_config(page_title="Y1S1", page_icon=":tada:", layout="wide")
+
+render_sidebar()
 
 st.title("Y1S1 mod review")
 
 st.subheader("Context", divider = True)
 
-st.write("Disclaimer, my mod reviews do not cover content covered and I also dont do any bitching. I will rather focus on what I did that works and what I did that doesnt")
+st.write("Disclaimer, my mod reviews do not cover content covered and I only cover reviews of certain mods. I will rather focus on what I did that works and what I did that doesnt. Also feel free to contact me about other mods!")
 st.write("I was preallocated 4 mods this sem, which meant that I did not have much flexibility on what other mods to take. Since it was my first sem, I decided to opt for mods with lesser workload. (As shown below)")
 
 st.markdown(" - CS1101S Programing Methodology (Preallocated)")

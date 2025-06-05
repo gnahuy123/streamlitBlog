@@ -1,6 +1,9 @@
 import streamlit as st
+from sidebar import render_sidebar
 
 st.set_page_config(page_title="Preparation for CS", page_icon=":tada:", layout="wide")
+
+render_sidebar()
 
 st.title("How to Prepare for CS in University")
 
